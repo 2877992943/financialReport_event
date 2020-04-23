@@ -16,9 +16,11 @@ event extraction
 1,第一个样本要预测的关系  [trigger:总资产  arg1:81万元  关系:value ; arg2:time  关系:time]   #arg =argument
 
 ```input :TIME , 实 现 triggerRoot mEntity , trigger mEntity 。```
+
 ```y:     time u  u u    trigger    value  u   u       u    u     #u=unlabel```
 
 2,第二个样本要预测的关系   [trigger:总负债 arg1 45万元 关系value; arg2:time 关系:time]
 
 ```input :TIME , 实 现 trigger mEntity , triggerRoot mEntity 。```
+
 ```y :    time u  u u    u      u      u   trigger   value   u```
