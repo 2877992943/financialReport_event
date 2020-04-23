@@ -31,5 +31,12 @@ event extraction
 
 事件评估基本单位 [head, head-position, tail,tail-position, relation]
 
+例如：
+
+[总资产 3 81万元 4 value]
+
+[总资产 3 2018年 0 time]
+
+
 precision,recall,f1-score分别问0.9915694729623408 0.9907699879155678 0.9905141807678854
 
