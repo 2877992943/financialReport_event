@@ -11,7 +11,10 @@ tensor2tensor==1.15.4
 
 event extraction
 
-原始数据1条 ：2018年 实 现 总资产 81万元 ， 总负债 45万元 。   
+原始数据1条 ：2018年 实 现 总资产 81万元 ， 总负债 45万元 。  
+
+
+p(arg|text ,trigger) 给定的trigger预测arguments
 
 
 1,第一个样本要预测的关系  {trigger:总资产,arguments:{ arg1:81万元 , 关系:value }; {arg2:time , 关系:time}   #arg =argument
