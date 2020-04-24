@@ -40,6 +40,7 @@ p(arg|text ,trigger) 给定的trigger预测arguments
 
 [总资产 3 2018年 0 time]
 
+当然数据泛化后，具体数值变成mEntity,具体资产 负债变成trigger 之后 trainset devset会有交集 所以评估去掉交集的结果如下:
 
 precision,recall,f1-score分别是0.93 0.94 0.93
 
