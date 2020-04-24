@@ -44,3 +44,7 @@ p(arg|text ,trigger) 给定的trigger预测arguments
 
 precision,recall,f1-score分别是0.93 0.94 0.93
 
+去重策略为如下是否重复  
+
+例如：'其 中 trigger 占 比 最 大 TIME trigger 占 trigger 比 重 分 别 为 m 、 m 、 m 和 m 。'
+
