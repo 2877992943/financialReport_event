@@ -41,5 +41,5 @@ p(arg|text ,trigger) 给定的trigger预测arguments
 [总资产 3 2018年 0 time]
 
 
-precision,recall,f1-score分别是0.9915694729623408 0.9907699879155678 0.9905141807678854
+precision,recall,f1-score分别是0.93 0.94 0.93
 
