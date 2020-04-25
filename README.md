@@ -1,4 +1,4 @@
-# financial_event
+# financial_event 使用 t2t transformer_l2
  
 依赖
 tensor2tensor==1.15.4
@@ -30,7 +30,7 @@ p(arg|text ,trigger) 给定的trigger预测arguments
 ```y :    time u  u u    u      u      u   trigger   value   u```
 
 
-# 评估
+# 评估标准
 
 事件评估基本单位 [head, head-position, tail,tail-position, relation]
 
@@ -42,7 +42,10 @@ p(arg|text ,trigger) 给定的trigger预测arguments
 
 当然数据泛化后，具体数值变成mEntity,具体资产 负债变成trigger 之后 trainset devset会有交集 所以评估去掉交集的结果如下:
 
-precision,recall,f1-score分别是0.93 0.94 0.93
+precision=0.93
+recall=0.94
+f1-score=0.93
+ 
 
 去重策略为如下是否重复  
 
