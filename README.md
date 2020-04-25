@@ -41,10 +41,11 @@ p(arg|text ,trigger) 给定的trigger预测arguments
 [总资产 3 2018年 0 time]
 
 当然数据泛化后，具体数值变成mEntity,具体资产 负债变成trigger 之后 trainset devset会有交集 所以评估去掉交集的结果如下:
-
+```
 precision=0.93
 recall=0.94
 f1-score=0.93
+```
  
 
 去重策略为如下是否重复  
